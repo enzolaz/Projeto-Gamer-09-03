@@ -1,0 +1,62 @@
+/* Importar Fonts */
+@font-face {
+    font-family: TitilliumWeb;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: Quick-Sand;
+    src: url(../assets/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../assets/Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+/* reset de informacoes */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+/* Mobile First */
+@media screen and (max-width: 767px) {
+
+/* Cabecalho */
+
+.header-flex{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header{
+    background-color: #1b1426;
+    height: 60px;
+}
+
+#Icons{
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    background-color: red;
+}
+
+}
