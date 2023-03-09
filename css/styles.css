@@ -29,10 +29,39 @@
     margin:0 auto;
 }
 
-/* Mobile First */
-@media screen and (max-width: 767px) {
+/* Desktop */
+body{
+    background-color: red;
+}
 
+
+
+/* Mobile First */
 /* Cabecalho */
+
+#mobile {
+    display: block;
+}
+
+.MostrarMenu{
+   left: 0;
+}
+
+header nav {
+   background-color: #1b1426;
+
+   position: fixed;
+   top: 60px;
+   left: -65%;
+   flex-direction: column;
+   height: calc(100% - 60px);
+   width: 65%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   transition: left 0.2s;
+}
 
 .header-flex{
     height: 100%;
@@ -55,8 +84,41 @@ header{
     align-items: center;
 }
 
+.header-bottom{
+    width: 100%;
+}
+
 body{
     background-color: red;
 }
 
+.header-top{
+    display: none;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+ 
+#IconsMore {
+    background-color: #1b1426;
+ 
+    position: fixed;
+    top: 60px;
+    right: -60px;
+    flex-direction: column;
+    height: calc(50% - 60px);
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+    transition: right 0.2s;
+ }
+
+.MostrarMais{
+    right: 0 !important;
 }

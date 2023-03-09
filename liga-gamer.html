@@ -22,16 +22,27 @@
                 <img id="Email" src="assets/Icons/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="">
                 <p>contato@gamer.com.br</p>
 
-                <img id="Facebook" src="assets/Icons/Facebook.png" alt="">
-                <img id="Linkedin" src="assets/Icons/Linkedin.png" alt="">
-                <img id="Instagram" src="assets/Icons/Instagram.png" alt="">
+                <a href="">
+                    <img id="Facebook" src="assets/Icons/Facebook.png" alt="">
+                </a>
+
+                <a href="">
+                    <img id="Linkedin" src="assets/Icons/Linkedin.png" alt="">
+                </a>
+
+                <a href="">
+                    <img id="Instagram" src="assets/Icons/Instagram.png" alt="">
+                </a>
+
             </div>
 
             <div class="header-bottom">
                 <div id="Icons">
-                    <img id="mobile-menu" src="assets/Icons/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="" onclick="MostrarMenu()">
+                        <img id="mobile-menu" src="assets/Icons/menu_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                            onclick="MostrarMenu()">
                     <img id="logotipo" src="images/logotipo-gamer.png" alt="">
-                    <img id="3pontos" src="assets/Icons/more_horiz_FILL0_wght400_GRAD0_opsz48.svg" alt="" onclick="MostrarMais()">
+                        <img id="3pontos" src="assets/Icons/more_horiz_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                            onclick="MostrarMais()">
                 </div>
 
                 <nav id="navmenu">
@@ -42,14 +53,33 @@
                 </nav>
 
                 <div id="IconsMore">
-                    <img id="profile" src="assets/Icons/person_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-                    <img id="mall" src="assets/Icons/local_mall_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-                    <img id="search" src="assets/Icons/search_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    <a href="">
+                        <img id="profile" src="assets/Icons/person_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    </a>
 
+                    <a href="">
+                        <img id="mall" src="assets/Icons/local_mall_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    </a>
+
+                    <a href="">
+                        <img id="search" src="assets/Icons/search_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
     </header>
+
+
+    <script>
+        function MostrarMenu() {
+            document.getElementById("navmenu").classList.toggle("MostrarMenu");
+        }
+
+        function MostrarMais() {
+            document.getElementById("IconsMore").classList.toggle("MostrarMais");
+        }
+    </script>
+
 
 </body>
 
