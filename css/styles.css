@@ -1,7 +1,12 @@
 /* Importar Fonts */
 @font-face {
-    font-family: TitilliumWeb;
+    font-family:TitilliumWeb-Black;
     src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family:TitilliumWeb-Bold;
+    src: url(../assets/Fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
 }
 
 @font-face {
@@ -179,4 +184,47 @@ header{
 #search{
     width: 40px;
     height: 40px;
+}
+
+/* Main */
+.Sobre{
+    background-image: url(../images/Imagem\ Banner.png);
+    height: 606px;
+}
+
+h2#ButonSobre{
+    width: 171px;
+    height: 40px;
+
+    background-color: #F9AA01;
+    border-radius: 8px;
+
+    font-family: "TitilliumWeb-Bold";
+    font-size: 24px;
+    font-weight: Bold;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    top: 492px;
+    left: calc(50% - 85.5px)
+}
+
+h1#LigaGamer{
+    width: 272px;
+    height: 66px;
+
+    color: white;
+
+    font-family: "TitilliumWeb-Black";
+    font-size: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    left: calc(50% - 136px);
 }
